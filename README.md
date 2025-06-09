@@ -35,7 +35,16 @@
 * #### CACViT
 
   ```
-  
+  [23:14:23.329991]Averaged stats:
+  [23:14:23.330031]MAE:5.25,RMSE:7.37,rMAE:0.42,rRMSE:0.44,R2:0.95
+  [23:14:23.330043]
+  FLOPs Summary:
+  [23:14:23.330057]Total FLOPs for all samples: 67.9290 TFLOPs
+  [23:14:23.330069]Average FLOPs per sample:449.8607 GFLOPs
+  [23:14:23.330089]Min sample FLOPs:177.5921 GFLOPs
+  [23:14:23.330102]MaX Sample FLOPs:1509.5326 GFLOPs
+  [23:14:23.330367]Median sample FLOPs:443.9802 GFLOPs
+  [23:14:23.330393]Testing time 0:00:57
   ```
 
 尝试过但有问题的模型：
