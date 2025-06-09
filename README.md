@@ -16,7 +16,7 @@
   └── images
   ```
 
-* 数据集正在上传至谷歌网盘
+* 数据集已上传至[谷歌网盘](https://drive.google.com/drive/folders/18QmVV1Yxm3cWzVoxtLsw0fQFtk1zcI8j?usp=sharing)
 
 ---
 
@@ -48,6 +48,10 @@
   ```
 
 尝试过但有问题的模型：
+
+* #### CountGD
+
+  需要提供全部样本的标注框。
 
 * #### SSD
 
