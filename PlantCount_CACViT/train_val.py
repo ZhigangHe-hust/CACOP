@@ -86,7 +86,7 @@ def get_args_parser():
     parser.add_argument('--seed', default=314, type=int)
 
     # 从指定检查点文件恢复训练
-    parser.add_argument('--resume', default='./pretrain/best_model.pth',
+    parser.add_argument('--resume', default='./pretrain/best_model_of_CACViT.pth',
                         help='resume from checkpoint')
     
     # 起始训练轮次（配合 --resume 使用）
