@@ -71,7 +71,7 @@ def get_args_parser():
     parser.add_argument('--device', default='cuda:0',
                         help='device to use for training / testing')
     parser.add_argument('--seed', default=0, type=int)
-    parser.add_argument('--resume', default='./pretrain/best_model.pth',
+    parser.add_argument('--resume', default='./pretrain/best_model_of_CACViT.pth',
                         help='resume from checkpoint')
 
     parser.add_argument('--start_epoch', default=0, type=int, metavar='N',
