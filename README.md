@@ -24,7 +24,7 @@
 
 已成功复现3个模型：BMNet+、CACViT、FamNet，模型复现结果如下：
 
-* #### BMNNet+
+* #### BMNet+
 
   ```
   train：MAE 8.63, rMAE 0.58, RMSE 12.36, rRMSE 0.95, R2 0.59, FLOPS 8.38e+10train:MAE 8.63, rMAE 0.58, RMSE 12.36, rRMSE 0.95, R2 0.59, FLOPS 8.38 e10
