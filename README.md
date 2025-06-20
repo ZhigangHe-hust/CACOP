@@ -13,7 +13,7 @@
   ├── Train_Val_Test.json
   ├── annotations.json
   ├── gt_density_maps
-  └── images   └──图象   └──图象   └──图象
+  └── images   
   ```
 
 * 数据集已上传至[谷歌网盘](https://drive.google.com/drive/folders/18QmVV1Yxm3cWzVoxtLsw0fQFtk1zcI8j?usp=sharing)
