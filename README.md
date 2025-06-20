@@ -22,7 +22,7 @@
 
 ## 模型复现
 
-已成功复现3个模型：BMNet+、CACViT、FamNet，模型复现结果如下：
+已成功复现5个模型：BMNet+、CACViT、FamNet，模型复现结果如下：
 
 * #### BMNet+
 
@@ -54,6 +54,27 @@
   val：MAE:  10.02, rMAE:  0.4845, RMSE:  15.03, rRMSE:  0.7269, R²:  0.1955, FLOPS: 133.4948G
   test：MAE:  13.41, rMAE:  0.8094, RMSE:  33.31, rRMSE:  2.0101, R²:  0.0251, FLOPS: 133.4948G
   ```
+
+* #### SPDCN
+  ```
+  [2025-06-14 15:00:12 SPDCN](val.py 176): INFO  * MAE 10.505 RMSE 15.547
+  [2025-06-14 15:00:12 SPDCN](val.py 177): INFO  * rMAE 0.643 rRMSE 0.754
+  [2025-06-14 15:00:12 SPDCN](val.py 178): INFO  * R2 0.759
+  [2025-06-14 15:00:12 SPDCN](val.py 180): INFO  * Average FLOPs per sample: 70.45G
+  [2025-06-14 15:00:12 SPDCN](val.py 181): INFO  * Median sample FLOPs: 563.61G
+  ```
+* #### GeCo
+  ```
+  Train：MAE: 10.6274, rMAE: 0.3781, RMSE: 12.9121, rRMSE: 0.5253, R2: 0.6742, FLOPS: 2856.0426G
+  Val：  MAE: 3.3954, rMAE: 0.3521, RMSE: 5.1146, rRMSE: 0.5143, R2: 0.8118, FLOPS: 2856.0426G
+  Test： MAE: 5.8543, rMAE: 0.5832, RMSE: 7.7532,  rRMSE: 0.6075, R2: 0.8132, FLOPS: 2856.0426G
+  ```
+
+## Demo
+  * 代码见`\Demo`，基于`flask`实现，运行后在浏览器打开生成的网址
+  * 基于可视化效果最优的`GeCo`实现
+  * 由于GeCo显存占用大，因此还开发了基于`CACViT`的轻便版本（`demo_CACVIT.py`、`predictor_CACVIT.py`、`\templates\demo_CACVIT.html`）
+  * 示例 <video src="demo.mp4" controls width="640"></video>
 
 尝试过但有问题的模型：
 
