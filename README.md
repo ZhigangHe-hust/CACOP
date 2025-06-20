@@ -98,4 +98,4 @@ https://github.com/user-attachments/assets/2561c451-8c3c-49e6-ba7d-fd047cc0b76b
 正在进行的工作：
 
 
-​       查阅文献撰写报告，以及尝试其他模型。
+​       查阅文献撰写报告，以及对已有模型进行改进。
