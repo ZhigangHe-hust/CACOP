@@ -74,7 +74,7 @@
   * 代码见`\Demo`，基于`flask`实现，运行后在浏览器打开生成的网址
   * 基于可视化效果最优的`GeCo`实现
   * 由于GeCo显存占用大，因此还开发了基于`CACViT`的轻便版本（`demo_CACVIT.py`、`predictor_CACVIT.py`、`\templates\demo_CACVIT.html`）
-  * 示例`./demo.mp4` <video src="demo.mp4" controls width="640"></video>
+  * 示例`./demo.mp4` <video src="./demo.mp4" controls width="640"></video>
 
 尝试过但有问题的模型：
 
