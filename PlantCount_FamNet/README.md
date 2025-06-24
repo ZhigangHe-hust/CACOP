@@ -62,7 +62,7 @@ python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split val --adapt
 
 在默认配置下，训练 `epochs=1500` 后，有最优模型。
 
-<a href="https://pan.quark.cn/s/452cd2a48f06" title="FamNet预训练参数">FamNet预训练参数下载</a>
+FamNet预训练参数下载：<a href="https://pan.quark.cn/s/452cd2a48f06" title="FamNet预训练参数">FamNet预训练参数下载</a>
 
 最优模型权重在本项目的植物计数数据集上的训练集上的测试结果为：
 
