@@ -24,9 +24,9 @@ pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu1
 
 ### 三、数据集准备
 
-将下载的数据集按如下格式放在对应存储数据的文件夹中：
+> **下载完成后，请将解压得到的数据集内容放入项目根目录下的 `data/` 文件夹内，目录结构如下：**
 ````
-$PATH_TO_DATASET/
+data/
 ├──── gt_density_map_ours
 │    ├──── 1037 density maps (.npy files)
 │    
@@ -36,7 +36,6 @@ $PATH_TO_DATASET/
 ├────annotation_ours.json (annotation file)
 ├────ImageClasses_ours.txt
 ├────Train_Test_Val_ours.json
-
 ````
 
 ### 四、训练
