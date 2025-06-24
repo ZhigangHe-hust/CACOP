@@ -50,9 +50,9 @@
 * #### FamNet
   ```
   lr=1e-5：
-  train：MAE:   9.07, rMAE:  0.4213, RMSE:  13.21, rRMSE:  0.6139, R²:  0.5318, FLOPS: 133.4948G
-  val：MAE:  10.02, rMAE:  0.4845, RMSE:  15.03, rRMSE:  0.7269, R²:  0.1955, FLOPS: 133.4948G
-  test：MAE:  13.41, rMAE:  0.8094, RMSE:  33.31, rRMSE:  2.0101, R²:  0.0251, FLOPS: 133.4948G
+  train：MAE: 9.07 , rMAE: 0.4213, RMSE: 13.21, rRMSE: 0.6139, R²: 0.5318, FLOPS: 133.4948G
+  val：  MAE: 10.02, rMAE: 0.4845, RMSE: 15.03, rRMSE: 0.7269, R²: 0.1955, FLOPS: 133.4948G
+  test： MAE: 13.41, rMAE: 0.8094, RMSE: 33.31, rRMSE: 2.0101, R²: 0.0251, FLOPS: 133.4948G
   ```
 
 * #### SPDCN
