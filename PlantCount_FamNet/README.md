@@ -2,9 +2,9 @@
 
 ### 一、数据集及预训练模型文件下载
 
-FSC147数据集下载：参考<a href="https://github.com/cvlab-stonybrook/LearningToCountEverything/tree/master" title   标题="Learning To Count Everything">Learning To Count Everything</a>
+FSC147数据集下载：参考<a href="https://github.com/cvlab-stonybrook/LearningToCountEverything/tree/master" title="Learning To Count Everything">Learning To Count Everything</a>
 
-本项目使用的数据集、密度图以及最终训练参数下载：<a href="https://pan.quark.cn/s/0903ab844631" title   标题="FamNet_data">FamNet_data</a>
+本项目使用的数据集、密度图以及最终训练参数下载：<a href="https://pan.quark.cn/s/0903ab844631" title="FamNet_data">FamNet_data</a>
 
 ### 二、环境配置
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu1
 
 > **下载完成后，请将解压得到的数据集内容放入项目根目录下的 `data/` 文件夹内，目录结构如下：**
 ````
-data/
+$PATH_TO_DATASET/
 ├──── gt_density_map_ours
 │    ├──── 1037 density maps (.npy files)│
 │    
