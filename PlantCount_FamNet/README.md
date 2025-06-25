@@ -28,10 +28,10 @@ pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu1
 ````
 $PATH_TO_DATASET/
 ├──── gt_density_map_ours
-│    ├──── 1037 density maps (.npy files)│
+│    ├──── 1037 density maps (.npy files)
 │    
 ├──── images_ours
-│    ├──── 1037 images (.jpg)（英文）
+│    ├──── 1037 images (.jpg)
 │ 
 ├────annotation_ours.json (annotation file)
 ├────ImageClasses_ours.txt
