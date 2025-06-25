@@ -2,9 +2,9 @@
 
 ### 一、数据集及预训练模型文件下载
 
-FSC147数据集下载：参考<a href="https://github.com/cvlab-stonybrook/LearningToCountEverything/tree/master" title="Learning To Count Everything">Learning To Count Everything</a>
+FSC147数据集下载：参考<a href="https://github.com/cvlab-stonybrook/LearningToCountEverything/tree/master" title   标题="Learning To Count Everything">Learning To Count Everything</a>
 
-本项目使用的植物计数数据集下载：<a href="https://pan.quark.cn/s/ccfa3de40a56" title="PlantCountDataset">PlantCountDataset</a>，提取码：tuq8
+本项目使用的数据集、密度图以及最终训练参数下载：<a href="https://pan.quark.cn/s/0903ab844631" title   标题="FamNet_data">PlantCountDataset</a>
 
 ### 二、环境配置
 
@@ -18,22 +18,22 @@ CUDA 11.8
 
 **依赖安装：**
 
-```bash
-pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu118
+```bash   ”“bash   ”“bash”“bash“bash”“bash”“bash”“bash”
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu118PIP install -r requirements.txt——index-url https://download.pytorch.org/whl/cu118PIP install -r requirements.txt——index-url https://download.pytorch.org/whl/cu118
 ```
 
 ### 三、数据集准备
 
 > **下载完成后，请将解压得到的数据集内容放入项目根目录下的 `data/` 文件夹内，目录结构如下：**
 ````
-data/
+data/   数据/
 ├──── gt_density_map_ours
-│    ├──── 1037 density maps (.npy files)
+│    ├──── 1037 density maps (.npy files)│├───1037密度图(。npy文件)│├───1037密度图(。npy文件)
 │    
 ├──── images_ours
 │    ├──── 1037 images (.jpg)（英文）
 │ 
-├────annotation_ours.json (annotation file)
+├────annotation_ours.json (annotation file)├────annotation_ours。Json（注释文件）
 ├────ImageClasses_ours.txt
 ├────Train_Test_Val_ours.json
 ````
@@ -49,12 +49,12 @@ python train.py
 
 测试时可根据需要调整下列参数，包括 `data_path`、`test_split`、`model_path`、`gpu-id` 等，并运行以下命令来测试FamNet：
 #### 1. 在验证集（val）上测试，不进行适应
-```bash
-python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split val
+```bash   ”“bash
+python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split valpython test.py——data_path /PATH/TO/YOUR/DATASET/——test_split
 ```
 
 #### 2. 在验证集（val）上测试，并开启测试时适应（adaptation）
-```bash   ”“bash
+```bash   ”“bash   ”“bash”“bash
 python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split val --adapt
 ```
 
@@ -62,38 +62,36 @@ python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split val --adapt
 
 在默认配置下，训练 `epochs=1500` 后，有最优模型。
 
-FamNet预训练参数下载：<a href="https://pan.quark.cn/s/452cd2a48f06" title="FamNet预训练参数">FamNet预训练参数下载</a>
-
 最优模型权重在本项目的植物计数数据集上的训练集上的测试结果为：
 
 |         指标名称         |    指标数值     |
 | :----------------------: | :-------------: |
 |           MAE            |      9.07       |
-|           RMSE           |     13.21       |
+|           RMSE           |     13.21       |   | rmse | 13.21 |   | RMSE | 13.21 | | RMSE | 13.21 |
 |           rMAE           |     0.4213      |
 |          rRMSE           |     0.6139      |
-|            R2            |     0.5318      |
-|          FLOPs           |   1.33e+11      |
+|            R2            |     0.5318      |   | r2 | 0.5318 |   | R2 | 0.5318 | | R2 | 0.5318 || R2 | 0.5318 | | R2 | 0.5318 | | R2 | 0.5318 | | R2 | 0.5318 |
+|          FLOPs           |   1.33e+11      |   | FLOPs | 1.33e 11 || FLOPs | 1.33e 11 | | FLOPs | 1.33e 11 |
 
 在本项目的植物计数数据集上的验证集上的测试结果为：
 
 |         指标名称         |    指标数值     |
 | :----------------------: | :-------------: |
 |           MAE            |     10.02       |
-|           RMSE           |     15.03       |
+|           RMSE           |     15.03       |   | rmse | 15.03 |   | RMSE | 15.03 | | RMSE | 15.03 |
 |           rMAE           |     0.4845      |
 |          rRMSE           |     0.7269      |
-|            R2            |     0.1955      |
-|          FLOPs           |   1.33e+11      |
+|            R2            |     0.1955      |   | r2 | 0.1955 |
+|          FLOPs           |   1.33e+11      |   | FLOPs | 1.33e 11 || FLOPs | 1.33e 11 | | FLOPs | 1.33e 11 |
 
 在本项目的植物计数数据集上的测试集上的测试结果为：
 
 |         指标名称         |    指标数值     |
 | :----------------------: | :-------------: |
 |           MAE            |     13.41       |
-|           RMSE           |     33.31       |
+|           RMSE           |     33.31       |   | rmse | 33.31 |
 |           rMAE           |     0.8094      |
 |          rRMSE           |     2.0101      |
-|            R2            |     0.0251      |
-|          FLOPs           |   1.33e+11      |
+|            R2            |     0.0251      |   | r2 | 0.0251 |
+|          FLOPs           |   1.33e+11      |   | FLOPs | 1.33e 11 |
 
