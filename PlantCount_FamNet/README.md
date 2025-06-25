@@ -60,7 +60,7 @@ python test.py --data_path /PATH/TO/YOUR/DATASET/ --test_split val --adapt
 
 ### 六、结论
 
-在默认配置下，训练 `epochs=1500` 后，有最优模型。
+在默认配置下，训练 `epochs=1500` 后，取最优模型。
 
 最优模型权重在本项目的植物计数数据集上的训练集上的测试结果为：
 
