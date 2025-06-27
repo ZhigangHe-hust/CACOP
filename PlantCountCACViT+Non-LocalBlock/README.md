@@ -8,7 +8,7 @@
 
 # 2.环境配置及模型运行等
 
-请参考：<a href="https://github.com/ZhigangHe-hust/CACOP/blob/main/PlantCount_CACViT/readme.md" title="环境配置及模型运行">环境配置及模型运行</a>
+请参考：<a href="https://github.com/Meng-Shen/CACOP/blob/main/PlantCount_CACViT/readme.md" title="环境配置及模型运行">环境配置及模型运行</a>
 
 # 3.实验结果
 
