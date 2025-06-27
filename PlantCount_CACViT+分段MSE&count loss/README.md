@@ -1,19 +1,19 @@
 # 密度图自适应归一化
 
-本项目基于 [CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 进行了模型改进，专注于密度图的自适应归一化，提升植物计数任务的准确性和泛化能力。
+本项目基于 [PlantCount_CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 进行了模型改进，专注于密度图的自适应归一化，提升植物计数任务的准确性和泛化能力。
 
 ---
 
 ## 1. 数据集及预训练模型下载
 
 - **预训练模型文件**：[点击下载](https://pan.quark.cn/s/e8b163f9bb74)
-- **参考原始项目**：[CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT)
+- **参考原始项目**：[PlantCount_CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT)
 
 ---
 
 ## 2. 环境配置
 
-请参考 [CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 的环境配置文档进行环境搭建。
+请参考 [PlantCount_CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 的环境配置文档进行环境搭建。
 
 ---
 
@@ -71,7 +71,7 @@ python test.py
 
 ## 7. 致谢
 
-感谢 [CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 项目的开源贡献，为本项目的改进与创新提供了坚实的基础。
+感谢 [PlantCount_CACViT](https://github.com/Meng-Shen/CACOP/tree/main/PlantCount_CACViT) 项目的开源贡献，为本项目的改进与创新提供了坚实的基础。
 
 ---
 
