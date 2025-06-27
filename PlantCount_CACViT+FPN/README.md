@@ -1,4 +1,4 @@
-# PlantCountCACViT
+# PlantCountCACViT+FPN
 
 ### 一、数据集及预训练模型文件下载
 
